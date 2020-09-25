@@ -1,0 +1,10 @@
+default:
+  golem_name: shinypkg
+  golem_version: 0.0.0.9000
+  app_prod: no
+  where: indev
+production:
+  app_prod: yes
+  where: inprod
+dev:
+  golem_wd: !expr here::here()
