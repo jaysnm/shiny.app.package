@@ -24,6 +24,9 @@ usethis::use_package( "usethis", "Imports" )
 usethis::use_package( "devtools", "Imports" )
 usethis::use_package( "htmltools", "Imports" )
 usethis::use_package( "shiny", "Imports" )
+usethis::use_package( "promises", "Imports" )
+usethis::use_package( "future", "Imports" )
+usethis::use_package( "ggplot2", "Imports" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
