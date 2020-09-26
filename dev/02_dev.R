@@ -15,6 +15,14 @@
 
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
+usethis::use_package( "config", "Imports" )
+usethis::use_package( "golem", "Imports" )
+usethis::use_package( "pkgload", "Imports" )
+usethis::use_package( "roxygen2", "Imports" )
+usethis::use_package( "rstudioapi", "Imports" )
+usethis::use_package( "usethis", "Imports" )
+usethis::use_package( "devtools", "Imports" )
+usethis::use_package( "htmltools", "Imports" )
 usethis::use_package( "shiny", "Imports" )
 
 ## Add modules ----
