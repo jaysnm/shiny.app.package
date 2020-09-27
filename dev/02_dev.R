@@ -30,8 +30,8 @@ usethis::use_package( "ggplot2", "Imports" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module( name = "home" ) # Name of the module
-golem::add_module( name = "about" ) # Name of the module
+# golem::add_module( name = "home" ) # Name of the module
+# golem::add_module( name = "about" ) # Name of the module
 
 
 ## External resources
